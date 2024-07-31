@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: note-taker
+    env: node
+    region: oregon
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
